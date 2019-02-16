@@ -15,11 +15,12 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../main.css">
-    <title>To do List</title>
+    <title>goal List</title>
 </head>
 <body>
     <div class = "container">
-    <h2> To do..............goal list </h2>
+        <div id="q">
+    <h2> <center>goal List </center></h2></div>
         <ul class = "items">
             <?php
         if ($result->num_rows > 0) {
